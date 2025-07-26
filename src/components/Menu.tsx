@@ -53,7 +53,7 @@ const Menu = () => {
         </div>
 
         {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        {/* <div className="flex flex-wrap justify-center gap-2 mb-12">
           {categories.map((category) => (
             <Button
               key={category}
@@ -64,7 +64,27 @@ const Menu = () => {
               {category}
             </Button>
           ))}
-        </div>
+        </div> */}
+        {/* Category Filters */}
+<div className="flex flex-wrap justify-center gap-4 mb-12">
+  {categories.map((category) => (
+    <Button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`px-6 py-2 rounded-md text-sm font-medium border transition duration-200 ease-in-out tracking-wide shadow-sm
+        ${
+          selectedCategory === category
+            ? "bg-[#b22222] text-white border-[#b22222] shadow-md scale-105"
+            : "bg-white text-gray-700 border-gray-300 hover:bg-[#f8f8f8]"
+        }`}
+    >
+      {category}
+    </Button>
+  ))}
+</div>
+
+
+        
 
         {/* Menu Items Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

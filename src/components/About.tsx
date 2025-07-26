@@ -83,17 +83,14 @@ const About = () => {
         <div className="mt-20 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">5000+</div>
+              <div className="text-3xl font-bold text-primary mb-2">500+</div>
               <div className="text-muted-foreground">Happy Customers</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
+              <div className="text-3xl font-bold text-primary mb-2">99+</div>
               <div className="text-muted-foreground">Menu Items</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">2+</div>
-              <div className="text-muted-foreground">Years Serving</div>
-            </div>
+            
             <div>
               <div className="text-3xl font-bold text-primary mb-2">4.8</div>
               <div className="text-muted-foreground">Average Rating</div>
