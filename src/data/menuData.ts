@@ -371,6 +371,118 @@ export const menuData: MenuItem[] = [
     category: "Sides - Wings"
   },
 
+  //Side_Tenders
+  {
+    name: "Classic Fried Chicken - ST",
+    price: 129,
+    description: "Classic fried chicken strips.",
+    category: "Sides - Tenders"
+  },
+  {
+    name: "Hot 'n' Honey Chicken - ST",
+    price: 149,
+    description: "Fried Chicken strips tossed in our House-made Hot 'n' Honey sauce.",
+    category: "Sides - Tenders"
+  },
+  {
+    name: "Nashville Hot Fried Chicken - ST",
+    price: 149,
+    description: "Fried Chicken strips tossed in Hot Chilli oil and seasoned with Nashville sauce.",
+    category: "Sides - Tenders"
+  },
+  {
+    name: "Oriental Chicken - ST",
+    price: 149,
+    description: "Fried Chicken strips tossed in our signature oriental sauces and seasonings.",
+    category: "Sides - Tenders"
+  },
+  //Waffle
+    { name: "White Choco Waffle", price: 99, description: "", category: "Waffle" },
+  { name: "Milk Choco Waffle", price: 99, description: "", category: "Waffle" },
+  { name: "Dark Choco Waffle", price: 99, description: "", category: "Waffle" },
+  { name: "Double Choco Waffle", price: 129, description: "", category: "Waffle" },
+  { name: "Triple Choco Waffle", price: 139, description: "", category: "Waffle" },
+  { name: "Oreo Crunch Waffle", price: 139, description: "", category: "Waffle" },
+  { name: "Rainbow Button Waffle", price: 119, description: "", category: "Waffle" },
+  { name: "Crunchy Butterscotch Waffle", price: 119, description: "", category: "Waffle" },
+  { name: "Kitkat Crunch Waffle", price: 129, description: "", category: "Waffle" },
+  { name: "Chocolate Overload", price: 129, description: "", category: "Waffle" },
+  { name: "Naked Nutella Waffle", price: 169, description: "", category: "Waffle" },
+  { name: "Chocolate Brownie Waffle", price: 149, description: "", category: "Waffle" },
+  { name: "Death By Chocolate Waffle", price: 169, description: "", category: "Waffle" },
+  { name: "Gems Magic Waffle", price: 119, description: "", category: "Waffle" },
+  { name: "White Choco Waffle-Double", price: 189, description: "", category: "Waffle" },
+  { name: "Milk Choco Waffle-Double", price: 189, description: "", category: "Waffle" },
+  { name: "Dark Choco Waffle-Double", price: 189, description: "", category: "Waffle" },
+  { name: "Double Choco Waffle-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Triple Choco Waffle-Double", price: 209, description: "", category: "Waffle" },
+  { name: "Oreo Crunch Waffle-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Rainbow Button Waffle-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Crunchy Butterscotch Waffle-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Kitkat Crunch Waffle-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Chocolate Overload-Double", price: 199, description: "", category: "Waffle" },
+  { name: "Naked Nutella Waffle-Double", price: 289, description: "", category: "Waffle" },
+  { name: "Chocolate Brownie Waffle-Double", price: 249, description: "", category: "Waffle" },
+  { name: "Death By Chocolate Waffle-Double", price: 249, description: "", category: "Waffle" },
+  { name: "Gems Magic Waffle-Double", price: 199, description: "", category: "Waffle" },
+
+  //Shakes
+  {
+    name: "Abela Rocher Shake",
+    price: 199,
+    description: "Creamy vanilla ice cream blended with Ferrero Rocher, topped with whipped cream and a chocolate drizzle.",
+    category: "Shakes"
+  },
+  {
+    name: "Choco Tella",
+    price: 169,
+    description: "The creamiest and most luxurious Nutella shake.",
+    category: "Shakes"
+  },
+  {
+    name: "Cold Coffee",
+    price: 99,
+    description: "Classic cold coffee.",
+    category: "Shakes"
+  },
+  {
+    name: "Thick Biscoff",
+    price: 179,
+    description: "The creamiest and thickest Biscoff shake.",
+    category: "Shakes"
+  },
+  //chilThril
+    {
+    name: "Blue Magic",
+    price: 49,
+    description: "",
+    category: "Chill Thrill"
+  },
+  {
+    name: "Melon Rush",
+    price: 49,
+    description: "",
+    category: "Chill Thrill"
+  },
+  {
+    name: "Mint-O Lime-O",
+    price: 49,
+    description: "",
+    category: "Chill Thrill"
+  },
+  {
+    name: "Passionate Lagoon",
+    price: 49,
+    description: "",
+    category: "Chill Thrill"
+  },
+  {
+    name: "Raspberry Breeze",
+    price: 49,
+    description: "",
+    category: "Chill Thrill"
+  }
+
 
 
   

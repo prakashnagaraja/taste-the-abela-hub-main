@@ -41,7 +41,7 @@ const Menu = () => {
         return drinkImg;
       case "Litebites":
         return LitebitesImg;
-        case "Sideswing":
+        case "Side-swing":
           return SideswingImg;
       default:
         return beefBurgerImg;
