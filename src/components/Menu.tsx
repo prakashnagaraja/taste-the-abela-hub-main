@@ -3,16 +3,18 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { menuData, categories } from "@/data/menuData";
-import { Crown, Star } from "lucide-react";
+import { Crown, Import, Star } from "lucide-react";
 
 // Import menu images
 import beefBurgerImg from "@/assets/beef.jpeg";
-import chickenBurgerImg from "@/assets/Chicken Burger.jpg";
 import friesImg from "@/assets/fries.jpg";
 import shakeImg from "@/assets/shake.jpg";
 import waffleImg from "@/assets/waffle.jpg";
 import shawarmaImg from "@/assets/Shawarma.png";
 import drinkImg from "@/assets/drink.jpg";
+import LitebitesImg from "@/assets/Litebites.jpg";
+import SideswingImg from "@/assets/Sideswing.jpg";
+
 
 const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState("Beef Burgers");
@@ -22,14 +24,14 @@ const Menu = () => {
   // Function to get appropriate image for category
   const getCategoryImage = (category: string) => {
     switch (category) {
-      case "Beef Burgers":
-        return beefBurgerImg;
-      case "Chicken Burgers":
-        return chickenBurgerImg;
+      case "Shawarma":
+        return shawarmaImg;
+      case "Shawarma Special":
+        return shawarmaImg;
       case "Fries":
       case "Loaded Fries":
         return friesImg;
-      case "Shakes":
+        case "Shakes":
         return shakeImg;
       case "Waffles":
         return waffleImg;
@@ -37,6 +39,10 @@ const Menu = () => {
         return shawarmaImg;
       case "Chill Thrill":
         return drinkImg;
+      case "Litebites":
+        return LitebitesImg;
+        case "Sideswing":
+          return SideswingImg;
       default:
         return beefBurgerImg;
     }
@@ -66,7 +72,7 @@ const Menu = () => {
           ))}
         </div> */}
         {/* Category Filters */}
-<div className="flex flex-wrap justify-center gap-4 mb-12">
+{/* <div className="flex flex-wrap justify-center gap-4 mb-12">
   {categories.map((category) => (
     <Button
       key={category}
@@ -81,7 +87,25 @@ const Menu = () => {
       {category}
     </Button>
   ))}
+</div> */}
+<div className="flex flex-wrap justify-center gap-4 mb-12">
+  {categories.map((category) => (
+    <Button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`px-8 py-3 rounded-xl text-base font-extrabold tracking-wider uppercase transition-all duration-300 shadow-md border-2
+        ${
+          selectedCategory === category
+            ? "bg-black text-[#FFD700] border-black scale-110"
+            : "bg-[#FFD700] text-black border-[#FFD700] hover:bg-black hover:text-[#FFD700] hover:scale-105"
+        }`}
+    >
+      {category}
+    </Button>
+  ))}
 </div>
+
+
 
 
         
