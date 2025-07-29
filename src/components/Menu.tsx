@@ -3,17 +3,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { menuData, categories } from "@/data/menuData";
-import { Crown, Import, Star } from "lucide-react";
+import { Beef, Crown, Import, Star } from "lucide-react";
 
 // Import menu images
 import beefBurgerImg from "@/assets/beef.jpeg";
+import ChickenBurgerImg from "@/assets/Chicken Burger.jpg";
 import friesImg from "@/assets/fries.jpg";
 import shakeImg from "@/assets/shake.jpg";
 import waffleImg from "@/assets/waffle.jpg";
 import shawarmaImg from "@/assets/Shawarma.png";
 import drinkImg from "@/assets/drink.jpg";
 import LitebitesImg from "@/assets/Litebites.jpg";
-import SideswingImg from "@/assets/Sideswing.jpg";
+import SideswingsImg  from "@/assets/SidesWings.jpg";
+import sidesTendersImg from "@/assets/sidestenders.jpg";
 
 
 const Menu = () => {
@@ -33,18 +35,25 @@ const Menu = () => {
         return friesImg;
         case "Shakes":
         return shakeImg;
-      case "Waffles":
+      case "Waffle":
         return waffleImg;
+      case "beef":
+        return beefBurgerImg;
       case "Shawarma":
         return shawarmaImg;
       case "Chill Thrill":
         return drinkImg;
-      case "Litebites":
-        return LitebitesImg;
-        case "Side-swing":
-          return SideswingImg;
+        case "Chicken Burger":
+          return ChickenBurgerImg;
+        case "Lite Bites":
+          return LitebitesImg;
+        case "SidesWings":
+          return SideswingsImg;
+     case "SidesTenders":
+          return SideswingsImg;
+       
       default:
-        return beefBurgerImg;
+        return ChickenBurgerImg;
     }
   };
 

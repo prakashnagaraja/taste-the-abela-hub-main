@@ -238,61 +238,61 @@ export const menuData: MenuItem[] = [
     name: "Cheesy Crispy Perfect- Large CB",
     price: 299,
     description: "Chicken Thighs fried to perfection loaded with cheese sauce in our house-made buns and signature sauces.",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Cheesy Crispy Perfect- Regular CB",
     price: 199,
     description: "Chicken Thighs fried to perfection loaded with cheese sauce in our house-made buns and signature sauces.",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crispy Korean Slaw- Large CB",
     price: 299,
     description: "Crispy fried chicken thighs tossed in House Made Korean Gochujang sauce served with our signature sauces on our buns",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crispy Korean Slaw- Regular CB",
     price: 199,
     description: "Crispy fried chicken thighs tossed in House Made Korean Gochujang sauce served with our signature sauces on our buns",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crispy Nashville Mania- Large CB",
     price: 299,
     description: "Crispy fried chicken thighs dipped in our signature Hot oil seasoned with our Nashville Seasoning",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crispy Nashville Mania- Regular CB",
     price: 199,
     description: "Crispy fried chicken thighs dipped in our signature Hot oil seasoned with our Nashville Seasoning",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crunchy Classic Stack- Large CB",
     price: 279,
     description: "Chicken Thighs fried to perfection in our house-made buns and sauces",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "Crunchy Classic Stack- Regular CB",
     price: 179,
     description: "Chicken Thighs fried to perfection in our house-made buns and sauces",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "The Grill Master- Large CB",
     price: 289,
     description: "Minced Chicken, grilled slowly to perfection and drenched with our signature sauces and cheese served on our house made buns",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
   {
     name: "The Grill Master- Regular CB",
     price: 189,
     description: "Minced Chicken, grilled slowly to perfection and drenched with our signature sauces and cheese served on our house made buns",
-    category: "Chicken Burgers"
+    category: "Chicken Burger"
   },
 
   //Beef Burger
@@ -350,52 +350,53 @@ export const menuData: MenuItem[] = [
     name: "Classic Fried Chicken - SW",
     price: 109,
     description: "Classic Southern fried chicken strips served with our signature sauces.",
-    category: "Sides - Wings"
+    category: "SidesWings"
   },
   {
     name: "Hot 'n' Honey Chicken - SW",
     price: 129,
     description: "Fried Chicken tossed in our House-made Hot 'n' Honey sauce.",
-    category: "Sides - Wings"
+    category: "SidesWings"
   },
   {
     name: "Nashville Hot Fried Chicken - SW",
     price: 129,
     description: "Fried Chicken dipped in Hot Chilli oil and seasoned with Nashville Hot Seasoning.",
-    category: "Sides - Wings"
+    category: "SidesWings"
   },
   {
     name: "Oriental Chicken - SW",
     price: 129,
     description: "Fried Chicken tossed in our signature oriental sauces and seasonings.",
-    category: "Sides - Wings"
+    category: "SidesWings"
   },
 
-  //Side_Tenders
+  //SideTenders
   {
     name: "Classic Fried Chicken - ST",
     price: 129,
     description: "Classic fried chicken strips.",
-    category: "Sides - Tenders"
+    category: "SidesTenders"
   },
   {
     name: "Hot 'n' Honey Chicken - ST",
     price: 149,
     description: "Fried Chicken strips tossed in our House-made Hot 'n' Honey sauce.",
-    category: "Sides - Tenders"
+    category: "SidesTenders"
   },
   {
     name: "Nashville Hot Fried Chicken - ST",
     price: 149,
     description: "Fried Chicken strips tossed in Hot Chilli oil and seasoned with Nashville sauce.",
-    category: "Sides - Tenders"
+    category: "SidesTenders"
   },
   {
     name: "Oriental Chicken - ST",
     price: 149,
     description: "Fried Chicken strips tossed in our signature oriental sauces and seasonings.",
-    category: "Sides - Tenders"
+    category: "SidesTenders"
   },
+  
   //Waffle
     { name: "White Choco Waffle", price: 99, description: "", category: "Waffle" },
   { name: "Milk Choco Waffle", price: 99, description: "", category: "Waffle" },
@@ -482,25 +483,17 @@ export const menuData: MenuItem[] = [
     description: "",
     category: "Chill Thrill"
   }
-
-
-
-  
-
-  
 ];
-
-
 export const categories = [
   "Shawarma",
   "Shawarma Special", 
   "Fries",
   "Loaded Fries",
   "Lite Bites",
-  "Chicken Burgers",
+  "Chicken Burger",
   "Beef Burgers",
-  "Sides-Wings",
-  "Sides-Tenders",
+  "SidesWings",
+  "SidesTenders",
   "Waffle",
   "Shakes",
   "Chill Thrill"

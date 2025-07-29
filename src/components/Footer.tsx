@@ -13,14 +13,14 @@ const Footer = () => {
             <p className="text-primary-foreground/80">
               Serving the most delicious burgers in Chennai with passion and quality since day one.
             </p>
-            <Button 
+            {/* <Button 
               variant="outline" 
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               onClick={() => window.open('https://www.instagram.com/abela_burger/', '_blank')}
             >
               <Instagram className="w-4 h-4 mr-2" />
               Follow Us
-            </Button>
+            </Button> */}
           </div>
 
           {/* Contact Info */}
@@ -35,6 +35,7 @@ const Footer = () => {
                   <p>Thoraipakkam, Chennai - 97</p>
                 </div>
               </div>
+              
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5" />
                 <p>8925503875</p>
