@@ -58,7 +58,7 @@ const GoogleReviews = () => {
             <span className="text-2xl font-bold text-foreground">{averageRating}</span>
             <span className="text-muted-foreground">({totalReviews} reviews)</span>
           </div>
-          <p className="text-lg text-muted-foreground">Based on Google Reviews</p>
+          <p className="text-lg text-muted-foreground">Based on Google Review</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
