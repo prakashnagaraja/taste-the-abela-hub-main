@@ -18,7 +18,7 @@ const TermsConditions = () => {
           <p className="text-sm text-muted-foreground mb-8">Last updated: {new Date().toLocaleDateString()}</p>
 
           <div className="space-y-8">
-            <section>
+            {/* <section>
               <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
               <div className="text-muted-foreground">
                 <p>By accessing and using Abela Burger Hub's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
@@ -134,7 +134,7 @@ const TermsConditions = () => {
               <div className="text-muted-foreground">
                 <p>These terms and conditions are governed by the laws of India. Any disputes will be subject to the jurisdiction of Chennai courts.</p>
               </div>
-            </section>
+            </section> */}
           </div>
         </div>
       </div>

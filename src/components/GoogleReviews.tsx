@@ -4,40 +4,40 @@ import { Card, CardContent } from "@/components/ui/card";
 const GoogleReviews = () => {
   const reviews = [
     {
-      name: "Priya Sharma",
+      name: "Meenakshi R",
       rating: 5,
-      text: "Amazing burgers! The beef burgers are juicy and perfectly cooked. The atmosphere is great and staff is friendly. Highly recommended!",
+      text: "The taste was good. Kindly place the shawarma machine inside the cafe, the road where the cafe was located is dusty",
       date: "2 days ago"
     },
     {
-      name: "Rajesh Kumar",
+      name: "Sharan Menon",
       rating: 5,
-      text: "Best burger place in OMR! The Korean chicken burger was outstanding. Fresh ingredients and great taste. Will definitely come back!",
+      text: "Pretty Sure the best burgers in Town💯",
       date: "1 week ago"
     },
     {
-      name: "Sneha Reddy",
+      name: "Ajith Kumar",
       rating: 5,
-      text: "Loved the Nashville hot chicken! Perfect spice level and the loaded fries are amazing. Great value for money. Five stars!",
-      date: "2 weeks ago"
+      text: "Forget KFC, McD etc, come here if you want to have a real burger!!! 10/10 for the burgers and sides. Best food joint in Thoraipakkam",
+      date: "1 weeks ago"
     },
     {
-      name: "Arjun Patel",
+      name: "Durairaja S",
       rating: 4,
-      text: "Good food quality and quick service. The waffles are delicious too. Only suggestion would be more parking space.",
-      date: "3 weeks ago"
+      text: "Good spot to celebrate your birthday with oferdable food prices at good quantity and qualityFood: 5/5  |  Service: 5/5  |  Atmosphere: 4/5",
+      date: "2weeks ago"
     },
     {
-      name: "Divya Krishnan",
+      name: "Zuhi Nasara",
       rating: 5,
-      text: "Excellent taste and presentation. The shawarma rolls are fresh and flavorful. Definitely ordering again via WhatsApp!",
-      date: "1 month ago"
+      text: "Chennai best burger.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+      date: "2 Weeks Ago"
     },
     {
-      name: "Vikram Singh",
+      name: "Shahul Hameeed",
       rating: 5,
-      text: "Outstanding experience! The signature burgers are worth every penny. Clean place, friendly staff, and amazing food quality.",
-      date: "1 month ago"
+      text: "Had Nashville chicken loaded fries… it was awesome😋 … Must try",
+      date: "2 Weeks Ago"
     }
   ];
 

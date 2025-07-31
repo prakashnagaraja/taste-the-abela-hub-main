@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
           <p className="text-sm text-muted-foreground mb-8">Last updated: {new Date().toLocaleDateString()}</p>
 
           <div className="space-y-8">
-            <section>
+            {/* <section>
               <h2 className="text-2xl font-semibold mb-4">1. Information We Collect</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>We collect information you provide directly to us, such as:</p>
@@ -91,10 +91,10 @@ const PrivacyPolicy = () => {
                   <li>Request a copy of your data</li>
                 </ul>
               </div>
-            </section>
+            </section> */}
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">7. Contact Information</h2>
+              <h2 className="text-2xl font-semibold mb-4">1. Contact Information</h2>
               <div className="text-muted-foreground">
                 <p>If you have any questions about this Privacy Policy, please contact us:</p>
                 <div className="mt-4 space-y-2">
@@ -105,12 +105,12 @@ const PrivacyPolicy = () => {
               </div>
             </section>
 
-            <section>
+            {/* <section>
               <h2 className="text-2xl font-semibold mb-4">8. Changes to This Policy</h2>
               <div className="text-muted-foreground">
                 <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
               </div>
-            </section>
+            </section> */}
           </div>
         </div>
       </div>
