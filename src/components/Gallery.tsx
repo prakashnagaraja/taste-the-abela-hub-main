@@ -1,6 +1,3 @@
-
-
-
 import { Card, CardContent } from "@/components/ui/card";
 import galleryImage from "@/assets/gallery-collage.jpg";
 import myvideo from "@/assets/video1 (1).mp4"; // Make sure file name has no spaces or parentheses in actual usage
