@@ -129,20 +129,20 @@ const Gallery = () => {
               See our latest creations and behind-the-scenes content on Instagram
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              {/* <button
+              <button
                 onClick={() =>
                   window.open("https://www.instagram.com/abela_burger/", "_blank")
                 }
                 className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold hover:opacity-90 transition-opacity"
               >
                 Follow on Instagram
-              </button> */}
-              <button
+              </button> 
+              {/* <button
                 onClick={() => window.open("https://wa.me/918925503875", "_blank")}
                 className="px-8 py-3 bg-[#25D366] text-white rounded-lg font-semibold hover:bg-[#128C7E] transition-colors"
               >
                 Order Now
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

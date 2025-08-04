@@ -60,7 +60,7 @@ const Menu = () => {
 
   return (
     <section id="menu" className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-4">
+      {/* <div className="container mx-auto px-4"> */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">Our Menu</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -169,18 +169,30 @@ const Menu = () => {
           ))}
         </div>
 
-        {/* WhatsApp Order Button */}
-        <div className="text-center mt-12">
-          <Button 
-            size="lg" 
-            className="bg-[#25D366] hover:bg-[#128C7E] text-white text-lg px-8"
-            onClick={() => window.open('https://wa.me/918925503875', '_blank')}
-          >
-            Order via WhatsApp
-          </Button>
-        </div>
-      </div>
+        {/* Order Buttons */}
+<div className="text-center mt-12 flex flex-col sm:flex-row justify-center gap-4">
+  {/* WhatsApp Order Button */}
+  <Button 
+    size="lg" 
+    className="bg-[#25D366] hover:bg-[#128C7E] text-white text-lg px-8"
+    onClick={() => window.open('https://wa.me/918925503875', '_blank')}
+  >
+    Order via WhatsApp
+  </Button>
+
+  {/* Zomato Order Button */}
+  <Button 
+    size="lg" 
+    className="bg-[#E23744] hover:bg-[#b21f2d] text-white text-lg px-8"
+    onClick={() => window.open('https://www.zomato.com/chennai/abela-1-thuraipakkam/order', '_blank')}
+  >
+    Order via Zomato
+  </Button>
+</div>
+
+      
     </section>
+    
   );
 };
 

@@ -141,14 +141,27 @@ const Footer = () => {
               <Link to="/terms-conditions" className="hover:text-accent transition-colors">Terms & Conditions</Link>
             </div>
             
-            <div className="pt-4">
-              <Button 
-                className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white"
-                onClick={() => window.open('https://wa.me/918925503875', '_blank')}
-              >
-                Order via WhatsApp
-              </Button>
-            </div>
+           {/* Order Buttons */}
+<div className="text-center mt-10 flex flex-col sm:flex-row justify-center gap-2">
+  {/* WhatsApp Order Button */}
+  <Button 
+    size="lg" 
+    className="bg-[#25D366] hover:bg-[#128C7E] text-white text-lg px-6"
+    onClick={() => window.open('https://wa.me/918925503875', '_blank')}
+  >
+    Order via WhatsApp
+  </Button>
+
+  {/* Zomato Order Button */}
+  <Button 
+    size="lg" 
+    className="bg-[#E23744] hover:bg-[#b21f2d] text-white text-lg px-6"
+    onClick={() => window.open('https://www.zomato.com/chennai/abela-1-thuraipakkam/order', '_blank')}
+  >
+    Order via Zomato
+  </Button>
+</div>
+
           </div>
         </div>
 
