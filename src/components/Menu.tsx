@@ -160,7 +160,7 @@ const Menu = () => {
                     <span className="text-sm text-muted-foreground ml-2">(4.8)</span>
                   </div>
                   
-                  <Button size="sm" className=""><a href="https://www.zomato.com/chennai/abela-1-thuraipakkam/order">
+                  <Button size="sm" className=""><a href="https://www.zomato.com/chennai/abela-1-thuraipakkam/order" target="_black">
                     Add to Cart for Zomato</a>
                   </Button>
                 </div>
