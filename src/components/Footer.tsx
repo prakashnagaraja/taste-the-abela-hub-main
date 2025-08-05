@@ -144,13 +144,13 @@ const Footer = () => {
            {/* Order Buttons */}
 <div className="text-center mt-10 flex flex-col sm:flex-row justify-center gap-2">
   {/* WhatsApp Order Button */}
-  <Button 
+  {/* <Button 
     size="lg" 
     className="bg-[#25D366] hover:bg-[#128C7E] text-white text-lg px-6"
     onClick={() => window.open('https://wa.me/918925503875', '_blank')}
   >
     Order via WhatsApp
-  </Button>
+  </Button> */}
 
   {/* Zomato Order Button */}
   <Button 

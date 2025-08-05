@@ -160,8 +160,8 @@ const Menu = () => {
                     <span className="text-sm text-muted-foreground ml-2">(4.8)</span>
                   </div>
                   
-                  <Button size="sm" className="bg-[var(--hero-gradient)] hover:opacity-90">
-                    Add to Cart
+                  <Button size="sm" className=""><a href="https://www.zomato.com/chennai/abela-1-thuraipakkam/order">
+                    Add to Cart for Zomato</a>
                   </Button>
                 </div>
               </CardContent>
@@ -172,13 +172,13 @@ const Menu = () => {
         {/* Order Buttons */}
 <div className="text-center mt-12 flex flex-col sm:flex-row justify-center gap-4">
   {/* WhatsApp Order Button */}
-  <Button 
+  {/* <Button 
     size="lg" 
     className="bg-[#25D366] hover:bg-[#128C7E] text-white text-lg px-8"
     onClick={() => window.open('https://wa.me/918925503875', '_blank')}
   >
     Order via WhatsApp
-  </Button>
+  </Button> */}
 
   {/* Zomato Order Button */}
   <Button 
