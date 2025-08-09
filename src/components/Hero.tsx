@@ -188,7 +188,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 font-display">
-          Abela Burger Hub
+          Abela Burger 
         </h1>
 
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
