@@ -1,5 +1,114 @@
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Clock, MapPin, Award, Users } from "lucide-react";
+// import {Helmet} from "react-helmet";
+// const About = () => {
+//   const features = [
+//     {
+//       icon: <Award className="w-8 h-8 text-accent" />,
+//       title: "Premium Quality",
+//       description: "We use only the finest ingredients, freshly ground beef, and house-made buns for every burger."
+//     },
+//     {
+//       icon: <Clock className="w-8 h-8 text-accent" />,
+//       title: "Fresh Daily",
+//       description: "All our ingredients are sourced fresh daily and prepared to order for maximum taste and quality."
+//     },
+//     {
+//       icon: <Users className="w-8 h-8 text-accent" />,
+//       title: "Expert Chefs",
+//       description: "Our experienced chefs craft each burger with passion and attention to detail."
+//     },
+//     {
+//       icon: <MapPin className="w-8 h-8 text-accent" />,
+//       title: "Prime Location",
+//       description: "Conveniently located on OMR, Thoraipakkam, serving the best burgers in Chennai."
+//     }
+//   ];
+
+//   return (
+    
+//     <section id="about" className="py-20">
+//       <div className="container mx-auto px-4">
+//         <div className="grid lg:grid-cols-2 gap-12 items-center">
+//           {/* Content */}
+//           <div className="space-y-8">
+//             <div>
+//               <h2 className="text-4xl font-bold text-foreground mb-6">About Abela Burger Hub</h2>
+//               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
+//                 <p>
+//                   Welcome to Abela Burger Hub, where every bite is pure magic! We're passionate about 
+//                   creating the most delicious, high-quality burgers in Chennai, using only the finest 
+//                   ingredients and time-tested recipes.
+//                 </p>
+//                 <p>
+//                   From our signature beef burgers to crispy chicken delights, Korean fusion rolls to 
+//                   indulgent waffles, we offer an extensive menu that caters to every taste and craving. 
+//                   Our commitment to quality and flavor has made us the go-to destination for burger 
+//                   lovers in Thoraipakkam and beyond.
+//                 </p>
+//                 <p>
+//                   At Abela Burger Hub, we believe that great food brings people together. That's why 
+//                   we've created a welcoming space where families and friends can enjoy exceptional 
+//                   food, friendly service, and an unforgettable dining experience.
+//                 </p>
+//               </div>
+//             </div>
+
+//             <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-xl">
+//               <h3 className="text-2xl font-semibold text-foreground mb-3">Our Mission</h3>
+//               <p className="text-muted-foreground text-lg">
+//                 To serve the most delicious, freshly made burgers and create memorable experiences 
+//                 for every customer who walks through our doors. We're not just serving food – 
+//                 we're serving happiness, one burger at a time.
+//               </p>
+//             </div>
+//           </div>
+
+//           {/* Features Grid */}
+//           <div className="grid sm:grid-cols-2 gap-6">
+//             {features.map((feature, index) => (
+//               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+//                 <CardContent className="pt-6">
+//                   <div className="flex justify-center mb-4">
+//                     {feature.icon}
+//                   </div>
+//                   <h3 className="font-semibold text-foreground mb-3">{feature.title}</h3>
+//                   <p className="text-muted-foreground text-sm">{feature.description}</p>
+//                 </CardContent>
+//               </Card>
+//             ))}
+//           </div>
+//         </div>
+
+//         {/* Stats Section */}
+//         <div className="mt-20 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8">
+//           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+//             <div>
+//               <div className="text-3xl font-bold text-primary mb-2">500+</div>
+//               <div className="text-muted-foreground">Happy Customers</div>
+//             </div>
+//             <div>
+//               <div className="text-3xl font-bold text-primary mb-2">99+</div>
+//               <div className="text-muted-foreground">Menu Items</div>
+//             </div>
+            
+//             <div>
+//               <div className="text-3xl font-bold text-primary mb-2">4.8</div>
+//               <div className="text-muted-foreground">Average Rating</div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default About;
+
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Clock, MapPin, Award, Users } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   const features = [
@@ -26,79 +135,100 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
-          <div className="space-y-8">
-            <div>
-              <h2 className="text-4xl font-bold text-foreground mb-6">About Abela Burger Hub</h2>
-              <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
-                <p>
-                  Welcome to Abela Burger Hub, where every bite is pure magic! We're passionate about 
-                  creating the most delicious, high-quality burgers in Chennai, using only the finest 
-                  ingredients and time-tested recipes.
-                </p>
-                <p>
-                  From our signature beef burgers to crispy chicken delights, Korean fusion rolls to 
-                  indulgent waffles, we offer an extensive menu that caters to every taste and craving. 
-                  Our commitment to quality and flavor has made us the go-to destination for burger 
-                  lovers in Thoraipakkam and beyond.
-                </p>
-                <p>
-                  At Abela Burger Hub, we believe that great food brings people together. That's why 
-                  we've created a welcoming space where families and friends can enjoy exceptional 
-                  food, friendly service, and an unforgettable dining experience.
+    <>
+      {/* Helmet Meta Tags */}
+      <Helmet>
+        <title>About Us | Abela Burger Hub - Best Burgers in Chennai</title>
+        <meta
+          name="description"
+          content="Learn more about Abela Burger Hub, Chennai's favorite spot for premium burgers, crispy chicken, Korean fusion rolls, and indulgent waffles. Fresh ingredients, expert chefs, and unforgettable taste."
+        />
+        <meta
+          name="keywords"
+          content="Abela Burger Hub, best burgers in Chennai, Thoraipakkam burger restaurant, fresh burgers, Korean fusion rolls, chicken burgers, waffles Chennai"
+        />
+        <meta name="author" content="Abela Burger Hu" />
+        <meta property="og:title" content="About Us | Abela Burger Hub" />
+        <meta
+          property="og:description"
+          content="Discover the story behind Abela Burger Hub. Fresh, premium ingredients, expert chefs, and the best burgers in Chennai."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourwebsite.com/about" />
+        <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+      </Helmet>
+
+      <section id="about" className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Content */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-4xl font-bold text-foreground mb-6">About Abela Burger Hub</h2>
+                <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
+                  <p>
+                    Welcome to Abela Burger Hub, where every bite is pure magic! We're passionate about 
+                    creating the most delicious, high-quality burgers in Chennai, using only the finest 
+                    ingredients and time-tested recipes.
+                  </p>
+                  <p>
+                    From our signature beef burgers to crispy chicken delights, Korean fusion rolls to 
+                    indulgent waffles, we offer an extensive menu that caters to every taste and craving. 
+                    Our commitment to quality and flavor has made us the go-to destination for burger 
+                    lovers in Thoraipakkam and beyond.
+                  </p>
+                  <p>
+                    At Abela Burger Hub, we believe that great food brings people together. That's why 
+                    we've created a welcoming space where families and friends can enjoy exceptional 
+                    food, friendly service, and an unforgettable dining experience.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-xl">
+                <h3 className="text-2xl font-semibold text-foreground mb-3">Our Mission</h3>
+                <p className="text-muted-foreground text-lg">
+                  To serve the most delicious, freshly made burgers and create memorable experiences 
+                  for every customer who walks through our doors. We're not just serving food – 
+                  we're serving happiness, one burger at a time.
                 </p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-xl">
-              <h3 className="text-2xl font-semibold text-foreground mb-3">Our Mission</h3>
-              <p className="text-muted-foreground text-lg">
-                To serve the most delicious, freshly made burgers and create memorable experiences 
-                for every customer who walks through our doors. We're not just serving food – 
-                we're serving happiness, one burger at a time.
-              </p>
+            {/* Features Grid */}
+            <div className="grid sm:grid-cols-2 gap-6">
+              {features.map((feature, index) => (
+                <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+                  <CardContent className="pt-6">
+                    <div className="flex justify-center mb-4">{feature.icon}</div>
+                    <h3 className="font-semibold text-foreground mb-3">{feature.title}</h3>
+                    <p className="text-muted-foreground text-sm">{feature.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
 
-          {/* Features Grid */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            {features.map((feature, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow">
-                <CardContent className="pt-6">
-                  <div className="flex justify-center mb-4">
-                    {feature.icon}
-                  </div>
-                  <h3 className="font-semibold text-foreground mb-3">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Stats Section */}
-        <div className="mt-20 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Happy Customers</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">99+</div>
-              <div className="text-muted-foreground">Menu Items</div>
-            </div>
-            
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">4.8</div>
-              <div className="text-muted-foreground">Average Rating</div>
+          {/* Stats Section */}
+          <div className="mt-20 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+              <div>
+                <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                <div className="text-muted-foreground">Happy Customers</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-primary mb-2">99+</div>
+                <div className="text-muted-foreground">Menu Items</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-primary mb-2">4.8</div>
+                <div className="text-muted-foreground">Average Rating</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

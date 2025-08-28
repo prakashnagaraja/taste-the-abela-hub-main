@@ -36,16 +36,14 @@ const Navbar = () => {
               </a>
             ))}
           </div>
-
-          {/* WhatsApp Button */}
+ {/* WhatsApp Button */}
           <div className="hidden md:flex items-center space-x-4">
             <Button className="bg-hover:opacity-90">
               <Phone className="w-4 h-4 mr-2" />
               8925503875
             </Button>
           </div>
-
-          {/* Mobile Menu Button */}
+{/* Mobile Menu Button */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -56,7 +54,6 @@ const Navbar = () => {
             </Button>
           </div>
         </div>
-
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
